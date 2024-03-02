@@ -7,8 +7,8 @@ cd django-web
 python3 -m venv venv
 source venv/bin/activate
 pip install django djangorestframework
-django-admin startproject myweb .
-python manage.py startapp posts
+django-admin startproject mysite .
+python manage.py startapp polls
 code .
 ```
 
@@ -40,3 +40,14 @@ python manage.py runserver
 ```
 
 ## 2. MVT
+
+python manage.py makemigrations polls
+ python manage.py sqlmigrate polls 0001
+ python manage.py migrate
+
+ python manage.py shell
+
+
+ ## 3. admin
+ python manage.py createsuperuser
+ python manage.py runserver
