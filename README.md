@@ -53,3 +53,9 @@ python manage.py shell
 python manage.py createsuperuser
 python manage.py runserver
 ```
+
+
+## 2. tests
+```bash
+python manage.py test polls
+```
