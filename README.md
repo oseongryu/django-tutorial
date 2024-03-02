@@ -39,15 +39,17 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## 2. MVT
-
+### migration
+```bash
 python manage.py makemigrations polls
- python manage.py sqlmigrate polls 0001
- python manage.py migrate
+python manage.py sqlmigrate polls 0001
+python manage.py migrate
 
- python manage.py shell
+python manage.py shell
+```
 
-
- ## 3. admin
- python manage.py createsuperuser
- python manage.py runserver
+### admin
+```bash
+python manage.py createsuperuser
+python manage.py runserver
+```
