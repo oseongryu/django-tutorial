@@ -78,3 +78,13 @@ export PKG_CONFIG_PATH="$(brew --prefix)/opt/mysql-client/lib/pkgconfig"
 
 pip install mysqlclient
 ```
+
+
+## 5. crawling
+
+```
+python manage.py startapp crawling
+
+
+pip install requests
+```
