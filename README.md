@@ -59,3 +59,12 @@ python manage.py runserver
 ```bash
 python manage.py test polls
 ```
+
+
+## 3. templates
+
+```bash
+
+python -c "import django; print(django.__path__)"
+python -m pip install django-debug-toolbar
+```
