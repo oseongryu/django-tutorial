@@ -68,3 +68,13 @@ python manage.py test polls
 python -c "import django; print(django.__path__)"
 python -m pip install django-debug-toolbar
 ```
+
+## 4. mysql 
+
+```bash
+# Assume you are activating Python 3 venv
+brew install mysql mysql-client pkg-config
+export PKG_CONFIG_PATH="$(brew --prefix)/opt/mysql-client/lib/pkgconfig"
+
+pip install mysqlclient
+```
