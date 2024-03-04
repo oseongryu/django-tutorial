@@ -82,9 +82,44 @@ pip install mysqlclient
 
 ## 5. crawling
 
-```
+```bash
 python manage.py startapp crawling
 
 
 pip install requests
+pip install beautifulsoup4
+
+# pip3 install --upgrade pip
+# pip3 install tk
+# brew install python-tk
+# brew install python-tk@3.12
+
+
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install --cask tint
+brew install tkinter
+
+brew install python-tk@3.9
+sudo port install py311-tkinter
+brew install python-tk
+
+pip install pyautogui
+```
+
+## 6. excel
+
+```bash
+pip install openpyxl
+```
+
+## 7. selenium
+
+```bash
+pip install selenium
+pip list
+pip install --upgrade pip
+pip3 install --upgrade pip
+pip install --upgrade selenium
+pip install webdriver_manager
+
 ```
