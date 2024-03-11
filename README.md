@@ -4,12 +4,22 @@
 ```bash
 mkdir django-web
 cd django-web
-python3 -m venv venv
+python -m venv venv
 source venv/bin/activate
 pip install django djangorestframework
 django-admin startproject mysite .
 python manage.py startapp polls
 code .
+```
+
+### innit(Windows)
+```bash
+python -m venv venv
+source ./venv/Scripts/activate
+pip install pyautogui
+pip install keyboard
+pip install pynput
+
 ```
 
 ### settings.py
