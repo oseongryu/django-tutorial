@@ -1,6 +1,7 @@
 ## 1. project setting
 
 ### init
+
 ```bash
 mkdir django-web
 cd django-web
@@ -13,16 +14,17 @@ code .
 ```
 
 ### innit(Windows)
+
 ```bash
 python -m venv venv
 source ./venv/Scripts/activate
 pip install pyautogui
 pip install keyboard
 pip install pynput
-
 ```
 
 ### settings.py
+
 ```py
 import os
 ALLOWED_HOSTS = ['*']
@@ -50,6 +52,7 @@ python manage.py runserver
 ```
 
 ### migration
+
 ```bash
 python manage.py makemigrations polls
 python manage.py sqlmigrate polls 0001
@@ -59,17 +62,17 @@ python manage.py shell
 ```
 
 ### admin
+
 ```bash
 python manage.py createsuperuser
 python manage.py runserver
 ```
 
-
 ## 2. tests
+
 ```bash
 python manage.py test polls
 ```
-
 
 ## 3. templates
 
@@ -79,7 +82,7 @@ python -c "import django; print(django.__path__)"
 python -m pip install django-debug-toolbar
 ```
 
-## 4. mysql 
+## 4. mysql
 
 ```bash
 # Assume you are activating Python 3 venv
@@ -88,7 +91,6 @@ export PKG_CONFIG_PATH="$(brew --prefix)/opt/mysql-client/lib/pkgconfig"
 
 pip install mysqlclient
 ```
-
 
 ## 5. crawling
 
@@ -131,5 +133,4 @@ pip install --upgrade pip
 pip3 install --upgrade pip
 pip install --upgrade selenium
 pip install webdriver_manager
-
 ```

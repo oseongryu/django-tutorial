@@ -19,7 +19,7 @@ class IndexView(generic.ListView):
     
     def get_queryset(self):
         print('test')
-        self.for_prompt()
+        self.pyautogui_prompt()
         return
     
     def crawling_test(self):
@@ -65,7 +65,7 @@ class IndexView(generic.ListView):
             
     def pyautogui_prompt(self):
         keyword= pyautogui.prompt('검색어')
-        response = requests.get('https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query={keyword}')
+        response = requests.get(f'https://search.naver.com/search.naver?ssc=tab.news.all&where=news&sm=tab_jum&query={keyword}')
         html = response.text
         soup = BeautifulSoup(html, 'html.parser')
         
