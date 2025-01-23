@@ -1,0 +1,59 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "http.proxyStrictSSL": false,
+    "prettier.packageManager": "yarn",
+    // "editor.formatOnSave": true,
+    "explorer.autoReveal": true,
+    // "files.eol": "\n",
+    "liveServer.settings.multiRootWorkspaceName": "packages",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "eslint.enable": true,
+    "eslint.options": { "configFile": "./.eslintrc" },
+    // "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "path-intellisense.extensionOnImport": true,
+    "files.associations": {
+      "*.json": "jsonc"
+    },
+    "editor.fontFamily": "D2Coding,  Consolas, 나눔고딕코딩, 'Courier New', monospace",
+    "git.autofetch": true,
+    "svn.ignoreMissingSvnWarning": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python",
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/activate",
+    // "python.defaultInterpreterPath": "./venv/bin/activate",
+    "editor.insertSpaces": true,
+    // "python.formatting.provider": "black",
+    // "python.linting.pylintEnabled": true,
+    // "python.linting.enabled": true,
+    "[python]": {
+      // "editor.defaultFormatter": "ms-python.black-formatter",
+      "editor.formatOnSave": true,
+      "editor.formatOnPaste": true
+    },
+    "black-formatter.args": ["--line-length", "300"],
+    "workbench.colorCustomizations": {
+      // // 상단 타이틀 배경색
+      // "titleBar.activeBackground": "#036774",
+      // "titleBar.inactiveBackground": "#024953",
+      // // 상단 타이틀 글자색
+      // "titleBar.activeForeground": "#fff",
+      // "titleBar.inactiveForeground": "#ffffff4c",
+      // // 하단 상태 배경색
+      // "statusBar.background": "#036774"
+    },
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    }
+  }
+}
